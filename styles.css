@@ -2,51 +2,111 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 body {
-    background-color: #1a1a1a;
-    color: #fff;
+    background: url('https://images.unsplash.com/photo-1533658925626-611e88ad1513') no-repeat center center fixed;
+    background-size: cover;
+    color: #F5DEB3;
     text-align: center;
 }
 
 .header {
     padding: 20px;
-    background: #2a2a2a;
+    background: rgba(34, 34, 34, 0.8);
+    border-bottom: 2px solid #8B4513;
 }
 
 .header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FFD700;
+    letter-spacing: 2px;
 }
 
 nav ul {
     list-style: none;
+    padding-top: 10px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #ffd700;
+    color: #F5DEB3;
     text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+    text-decoration: underline;
 }
 
 .sorting-section, .houses-section {
-    margin: 40px 0;
+    background: rgba(34, 34, 34, 0.8);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #8B4513;
+}
+
+h2 {
+    color: #FFD700;
+    font-size: 1.8em;
+    margin-bottom: 15px;
 }
 
 button {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background: #555;
+    background: #8B4513;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
 }
 
 button:hover {
-    background: #ffd700;
+    background: #FFD700;
+    color: #000;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #F5DEB3;
+}
+
+.houses-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.houses-section ul li {
+    margin: 10px 0;
+}
+
+.houses-section ul li a {
+    color: #FFD700;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.houses-section ul li a:hover {
+    color: #F5DEB3;
+    text-decoration: underline;
+}
+
+footer {
+    background: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    color: #8B4513;
+    border-top: 2px solid #8B4513;
 }
